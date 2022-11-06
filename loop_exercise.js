@@ -1,6 +1,10 @@
 let a = 2;
-for (let i = 0; i < 5; i++) {
-  console.log(i);
+// a = Math.pow(a, 3);
+console.log(a);
+let b = a;
+
+for (let i = 0; i < 2; i++) {
+  b = b * a;
 }
-console.log("hello");
+console.log(b);
 console.log("hello");
