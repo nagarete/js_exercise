@@ -6,8 +6,7 @@ let arr =
 for (let i = 0; i < arr.length; i++) {
   if (arr[i] == "(") {
     floor += 1;
-  }
-  if (arr[i] == ")") {
+  } else if (arr[i] == ")") {
     floor -= 1;
   }
 }

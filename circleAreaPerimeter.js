@@ -1,14 +1,18 @@
 let radius = 20;
-let pi = 0;
+let x = Math.PI;
 
-if (radius % 7 == 0) {
-  pi = 22 / 7;
-} else {
-  pi = 3.14;
-}
+//ternary
+radius % 7 === 0 ? (x = 22 / 7) : (x = x.toFixed(2));
 
-const perimeter = radius * 2 * pi;
-const area = radius * radius * pi;
+//if biasa
+// if (radius % 7 == 0) {
+//   x = 22 / 7;
+// } else {
+//   x = x.toFixed(2);
+// }
+
+const perimeter = radius * 2 * x;
+const area = radius * radius * x;
 
 console.log(perimeter);
 console.log(area);
