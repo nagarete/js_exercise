@@ -7,6 +7,7 @@ for (let i = 0; i < N; i++) {
 }
 N === 0 ? console.log("empty") : console.log(ans);
 
+//test jalan ga githubnya
 // const N = parseInt(readline());
 // const string = readline();
 // let ans = []
