@@ -1,6 +1,7 @@
-cuboidVolume = (length, width, height) => console.log(length * width * height);
+const cuboidVolume = (length, width, height) => length * width * height;
 
-cuboidVolume(2, 3, 4);
+let x = cuboidVolume(2, 3, 4);
+console.log(x);
 
 // function cuboidVolume(length, width, height) {
 //   return console.log(length * width * height);
