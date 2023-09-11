@@ -1,4 +1,4 @@
-const a = `Abiu
+const listOfFruits = `Abiu
 Açaí
 Acerola
 Akebi
@@ -135,7 +135,7 @@ White sapote
 Ximenia
 Yuzu`;
 
-const newA = a.split("\n");
+const newA = listOfFruits.split("\n");
 
 let fruits = new Set();
 while (fruits.size !== newA.length) {
