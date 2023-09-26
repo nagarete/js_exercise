@@ -1,7 +1,7 @@
-const guessNum = (randomNumber) => {
+const guessNum = (randomNumber: number) => {
   let right = 1_000_000;
   let left = 0;
-  let middle = -1;
+  const middle = -1;
   let howManyTimes = 0;
   while (left < right) {
     if (middle == randomNumber) {
@@ -20,10 +20,10 @@ const guessNum = (randomNumber) => {
   //   return middle;
 };
 
-let worst = -1;
+const _worst = -1;
 for (let i = 1; i < 1_000_000; ++i) {
   //   console.log("current number", i);
-  const guesses = guessNum(i);
+  const _guesses: number = guessNum(i);
   //   if (guesses == 19) console.log(`number: ${i}, guesses: ${guesses}`);
 }
 // console.log(worst);

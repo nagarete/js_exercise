@@ -13,7 +13,8 @@ set.add(2);
 console.log(set); /*unique values*/
 console.log("This is called set\n");
 
-const obj = {};
+// deno-lint-ignore no-explicit-any
+const obj: any = {};
 obj.name = "Ryan";
 obj.surname = "Smith";
 obj.age = 27;

@@ -1,5 +1,5 @@
-const randomNumberGenerator = (a) => {
-  const arr = new Array();
+const randomNumberGenerator = (a: number) => {
+  const arr = [];
   for (let i = 0; i < a; i++) {
     arr.push(Math.floor(Math.random() * 100));
   }
