@@ -1,6 +1,6 @@
 const addition = (a: number, b: number) => a + b;
 const substraction = (a: number, b: number) => a - b;
-const multiplication = (a: number, b: number) => a + b;
+const multiplication = (a: number, b: number) => a * b;
 const division = (a: number, b: number) => a / b;
 const power = (a: number, b: number) => {
   let poweredNumber = a;
