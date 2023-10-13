@@ -1,0 +1,15 @@
+/**
+ * @param {string} s
+ * @return {boolean}
+ */
+const isPalindrome = function (s) {
+  const alphanumeric = new Set("abcdefghijklmnopqrstuvwxyz1234567890");
+  const lowerS = s.toLowerCase();
+  const newS = lowerS.split("").filter((a) => alphanumeric.has(a));
+  const reverseS = newS.slice().reverse();
+  return newS.join("") === reverseS.join("");
+  // const alphanumeric = new Set("abcdefghijklmnopqrstuvwxyz1234567890");
+  // const lowerS = s.toLowerCase().split("").filter(a =>alphanumeric.has(a))
+  // const reverseS = lowerS.slice().reverse();
+  // return lowerS.join("") === reverseS.join("");
+};

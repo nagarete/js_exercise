@@ -1,0 +1,14 @@
+/**
+ * @param {string} s
+ * @param {string} t
+ * @return {boolean}
+ */
+const isAnagram = function (s, t) {
+  const newS = s.split("").sort().join("");
+  const newT = t.split("").sort().join("");
+  return newS === newT;
+};
+
+/*const set = new Set(nums);
+if (set.size !== nums.length) return true;
+else return false;*/
