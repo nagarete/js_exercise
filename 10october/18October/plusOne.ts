@@ -1,10 +1,10 @@
 const plusOne = (digits: [number]) => {
-  let lastDigits = digits.pop();
-  let newArray;
-  if (lastDigits === 9) {
-    newArray = digits.push(1, 0);
+  let _lastDigits: number = digits.pop();
+  let _newArray;
+  if (_lastDigits === 9) {
+    _newArray = digits.push(1, 0);
   } else {
-    newArray = digits.push(lastDigits + 1);
+    _newArray = digits.push(_lastDigits + 1);
   }
   return digits;
 };
