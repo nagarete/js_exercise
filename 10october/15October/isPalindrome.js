@@ -11,6 +11,7 @@ const isPalindrome = function (x) {
 
 console.log(isPalindrome(121));
 
+//https://leetcode.com/problems/palindrome-number/
 /*var isPalindrome = function(x) {
     const reverseX = x.toString().split("").reverse().join("");
     return reverseX == x ? true : false;

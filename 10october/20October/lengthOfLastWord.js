@@ -13,3 +13,4 @@ console.log(lengthOfLastWord("Hello World"));
 console.log(lengthOfLastWord("luffy is still joyboy"));
 
 //don't understand why even already trimmed, the fly me to the moon test case is failed.
+//https://leetcode.com/problems/length-of-last-word/

@@ -16,6 +16,7 @@ const longestCommonPrefix = function (strs: string[]) {
 
 console.log(longestCommonPrefix(["flower", "flow", "flight"]));
 
+//https://leetcode.com/problems/longest-common-prefix/
 // const a = ["helaw", "salam", "sister"];
 // const b = "";
 // console.log(b.concat(a[1][0]));

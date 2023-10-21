@@ -15,3 +15,5 @@ const containsDuplicate = function (nums) {
 
   return false;
 };
+
+//https://leetcode.com/problems/contains-duplicate/

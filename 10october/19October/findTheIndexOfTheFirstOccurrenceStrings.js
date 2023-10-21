@@ -17,3 +17,4 @@ console.log(strStr("happysadbutsad", "sad"));
 console.log(strStr("a", "a"));
 
 //dibantuin Gitta
+//https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/

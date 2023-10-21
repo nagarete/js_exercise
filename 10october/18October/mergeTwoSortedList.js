@@ -9,7 +9,7 @@ const mergeTwoLists = (list1, list2) => {
 console.log(mergeTwoLists([1, 2, 4], [1, 3, 4]));
 console.log(mergeTwoLists([], []));
 console.log(mergeTwoLists([], [0]));
-
+//https://leetcode.com/problems/merge-two-sorted-lists/
 /* Merge Two Sorted List
 You are given the heads of two sorted linked lists list1 and list2.
 

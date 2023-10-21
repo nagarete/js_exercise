@@ -12,3 +12,5 @@ const isAnagram = function (s, t) {
 /*const set = new Set(nums);
 if (set.size !== nums.length) return true;
 else return false;*/
+
+//https://leetcode.com/problems/valid-anagram/
