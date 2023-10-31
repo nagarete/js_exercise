@@ -1,12 +1,12 @@
 const intersectionOfTwoArrays = (nums1, nums2) => {
-  let sameSetNum = new Set();
+  const sameSetNum = new Set();
   for (let i = 0; i < nums1.length; i++) {
     for (let j = 0; j < nums2.length; j++) {
       if (nums1[i] === nums2[j]) sameSetNum.add(nums1[i]);
     }
   }
-  let sameArrNum = [];
-  for (let value of sameSetNum) {
+  const sameArrNum = [];
+  for (const value of sameSetNum) {
     sameArrNum.push(value);
   }
   return sameArrNum;

@@ -1,5 +1,5 @@
 const reverseString = (s) => {
-  let newS = [];
+  const newS = [];
   for (let i = s.length - 1; i >= 0; i--) {
     newS.push(s[i]);
   }

@@ -7,7 +7,7 @@
 // };
 const findTheDifference = (s, t) => {
   const stringToArray = (s) => {
-    let newString = [];
+    const newString = [];
     for (let i = 0; i < s.length; i++) {
       newString.push(s[i]);
     }
